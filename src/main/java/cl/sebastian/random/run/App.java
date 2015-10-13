@@ -19,8 +19,8 @@ public class App {
     public static void main(String[] args) {
         // TODO code application logic here
         long numero = RandomUtils.nextLong(1000000000000000000L, Long.MAX_VALUE);
-        System.out.println(numero);
-        
+        String aleatoreo = String.format("private static final long serialVersionUID = %dL;", numero);
+        System.out.println(aleatoreo);
     }
-    
+
 }
